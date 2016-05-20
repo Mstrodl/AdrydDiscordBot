@@ -1,0 +1,22 @@
+{
+    "dev": false,
+    "selfbot": false,
+    "auth": {
+        "discord": {
+            "token": "TOKEN",
+            "devtoken": "TOKEN_FOR_DEV_BOT",
+            "selfbotemail": "EMAIL_FOR_SELF_BOT",
+            "selfbotpassword": "PASSWORD_FOR_SELF_BOT"
+        }
+    },
+    "commandprefix": "?mybot ",
+    "devprefix": "?mybotdev ",
+    "selfprefix": "?myselfbot ",
+    "devselfprefix": "?myselfbotdev ",
+    "cleverEnabled": true,
+    "tagsEnabled": true,
+    "musicEnabled": true,
+    "emojiEnabled": true,
+    "ownerid": "YOUR_ID",
+    "songcount": 10
+}

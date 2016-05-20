@@ -1,0 +1,10 @@
+{
+    "hi": {
+        "response": "Hello",
+        "tagtype": "txt"
+    },
+    "imagetagtype": {
+      "response": "images/test.png",
+      "tagtype": "img"
+    }
+}

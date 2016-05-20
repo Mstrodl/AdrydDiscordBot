@@ -1,0 +1,1 @@
+In here put all the images from https://github.com/twitter/twemoji/tree/gh-pages/2/72x72 into this folder to make the emoji command work
