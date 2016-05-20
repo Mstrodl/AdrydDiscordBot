@@ -66,16 +66,16 @@ if (tagsEnabled == true) {
         var tags = JSON.parse(fs.readFileSync('tags.json', 'utf8'));
         log('tags.json has sucsessfully loaded.', 'info');
     } catch (e) {
-        log('config.json does not exist or is malformed. Bot will crash!', 'info');
+        log('tags.json does not exist or is malformed. Bot will crash!', 'info');
     }
 }
 if (cleverEnabled == true) {
     cleverbot.prepare(function() {});
 }
 
-log('Intilizing discord...', 'info');
+log('Initalizing discord...', 'info');
 
-// Discord Intilization
+// Discord Initialization
 
 var bot = new DiscordClient({
     token: token,
@@ -150,10 +150,10 @@ bot.on('message', function(user, userID, channelID, message, rawEvent) {
                     case "ping":
                         var ping = [
                             'Owwie, that hit me in the face!',
-                            'Outch, that landed in my eye!',
+                            'Ouch, that landed in my eye!',
                             'Pong!',
-                            'Can you please stop throwing pingpong balls at me!',
-                            'WOULD YOU QUIT IT WITH THE PINGPONG BALLS'
+                            'Can you please stop throwing ping pong balls at me!',
+                            'WOULD YOU QUIT IT WITH THE PING PONG BALLS'
                         ];
                         var i = Math.floor(Math.random() * ping.length);
                         bot.sendMessage({
